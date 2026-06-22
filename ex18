@@ -1,0 +1,5 @@
+SELECT SUM(Quantity) AS Total_Quantity
+FROM OrderDetails
+WHERE ProductID <> 1
+AND ProductID <> 2
+AND ProductID <> 3;
