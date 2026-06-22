@@ -1,0 +1,3 @@
+SELECT SUM(Quantity) AS Total_Quantity
+FROM OrderDetails
+WHERE OrderID BETWEEN 20 AND 60;
